@@ -1,0 +1,845 @@
+* {
+    box-sizing: border-box;
+}
+
+header {
+    nav {
+        .container {
+            .navbar-brand {
+                img {
+                    width: 110px;
+                }
+            }
+
+            .navbar-toggler {
+                box-shadow: none;
+                padding-top: 15px;
+            }
+
+            .collapse {
+                ul {
+                    li {
+                        a {
+                            color: black;
+                            font-weight: 600;
+
+                            &:hover {
+                                color: rgb(6, 119, 212);
+                            }
+                        }
+                    }
+                }
+
+                form {
+                    .search {
+                        width: 180px;
+                        box-sizing: border-box;
+                        border: 3px solid rgba(204, 204, 204, 0.548);
+                        border-radius: 30px;
+                        // font-size: 16px;
+                        background-image: url('https://www.w3schools.com/howto/searchicon.png');
+                        background-position: 10px 8px;
+                        background-repeat: no-repeat;
+                        padding-left: 35px;
+                        -webkit-transition: width 0.45s ease-in-out;
+                        transition: width 0.45s ease-in-out;
+
+                        &:focus {
+                            width: 240px;
+                            box-shadow: none;
+                            border: 3px solid rgb(6, 119, 212);
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 576px) {
+    header {
+        nav {
+            .container {
+                .navbar-brand {
+                    img {
+                        width: 110px;
+                    }
+                }
+
+                .navbar-toggler {
+                    box-shadow: none;
+                    padding-top: 15px;
+                }
+
+                .collapse {
+                    ul {
+                        padding: 0 25px;
+
+                        li {
+                            a {
+                                color: black;
+                            }
+                        }
+                    }
+
+                    form {
+                        .search {
+                            width: 180px;
+                            box-sizing: border-box;
+                            border: 3px solid rgba(204, 204, 204, 0.548);
+                            border-radius: 30px;
+                            // font-size: 16px;
+                            background-image: url('https://www.w3schools.com/howto/searchicon.png');
+                            background-position: 10px 8px;
+                            background-repeat: no-repeat;
+                            padding-left: 35px;
+                            -webkit-transition: width 0.35s ease-in-out;
+                            transition: width 0.35s ease-in-out;
+
+                            &:focus {
+                                width: 240px;
+                                box-shadow: none;
+                                border: 3px solid rgba(8, 109, 241, 0.548);
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+.slide {
+    .carousel {
+        .carousel-inner {
+            .carousel-item {
+                .carousel-caption {
+                    top: 50%;
+                }
+            }
+
+            .slide-1 {
+                height: 95vh;
+                background-image: url('../img/wes-hicks-4-EeTnaC1S4-unsplash.jpg');
+                background-size: cover;
+                background-position-y: -70px;
+                background-repeat: no-repeat;
+            }
+
+            .slide-2 {
+                height: 95vh;
+                background-image: url('../img/akson-1K8pIbIrhkQ-unsplash.jpg');
+                background-size: cover;
+                background-position-y: -50px;
+                background-repeat: no-repeat;
+            }
+
+            .slide-3 {
+                height: 95vh;
+                background-image: url('../img/roihan-haidar-eioOpjkjxxs-unsplash.jpg');
+                background-size: cover;
+                background-position-y: -650px;
+                background-repeat: no-repeat;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .slide {
+        .carousel {
+            .carousel-inner {
+                .carousel-item {
+                    .carousel-caption {
+                        top: 50%;
+                    }
+                }
+
+                .slide-1 {
+                    height: 100vh;
+                    background-image: url('../img/wes-hicks-4-EeTnaC1S4-unsplash.jpg');
+                    background-size: cover;
+                    background-position-y: -0px;
+                    background-repeat: no-repeat;
+                }
+
+                .slide-2 {
+                    height: 100vh;
+                    background-image: url('../img/akson-1K8pIbIrhkQ-unsplash.jpg');
+                    background-size: cover;
+                    background-position-y: 0px;
+                    background-position-x: -150px;
+                    background-repeat: no-repeat;
+                }
+
+                .slide-3 {
+                    height: 100vh;
+                    background-image: url('../img/roihan-haidar-eioOpjkjxxs-unsplash.jpg');
+                    background-size: cover;
+                    background-position-y: -100px;
+                    background-repeat: no-repeat;
+                }
+            }
+        }
+    }
+}
+
+.pilihan {
+    .container {
+        position: absolute;
+        left: 0;
+        right: 0;
+        // top: 50;
+        z-index: 99;
+        margin-top: -110px;
+
+
+        // box-shadow: 0 0 4px 4px rgba(194, 194, 194, 0.575);
+        .row {
+            padding: 10px;
+
+            .pilihan-isi {
+                padding: 15px;
+
+                .pilihan-isi-dalam {
+                    border: 1px solid rgb(188, 220, 250);
+                    // text-align: center;
+                    background-color: rgb(234, 238, 241);
+                    display: flex;
+                    padding: 35px;
+                    height: 220px;
+
+                    i {
+                        color: rgb(2, 93, 167);
+                        margin-right: 15px;
+                    }
+
+                    .kata {
+                        h5 {
+                            letter-spacing: 1px;
+                            color: black;
+                        }
+
+                        p {
+                            letter-spacing: 0.5px;
+                            color: black;
+                        }
+                    }
+
+                    &:hover {
+                        background-color: rgb(21, 132, 223);
+
+                        i {
+                            color: white;
+                        }
+
+                        .kata {
+                            p {
+                                color: white;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+.nyari {
+    margin-top: 200px;
+
+    .container {
+        .row {
+            .kiri {
+                img {
+                    width: 500px;
+                }
+            }
+
+            .kanan {
+                h3 {
+                    color: rgb(2, 93, 167);
+                    font-size: 25px;
+                }
+
+                p {
+                    color: rgb(65, 64, 64);
+                }
+
+                form {
+                    .cari {
+                        width: 180px;
+                        box-sizing: border-box;
+                        border: none;
+                        border-radius: 0px;
+                        border-bottom: 1px solid rgba(0, 0, 0, 0.452);
+                        // border-radius: 30px;
+                        // font-size: 16px;
+                        background-image: url('https://www.w3schools.com/howto/searchicon.png');
+                        background-position: 10px 8px;
+                        background-repeat: no-repeat;
+                        padding-left: 38px;
+                        -webkit-transition: width 0.35s ease-in-out;
+                        transition: width 0.35s ease-in-out;
+                        outline: none;
+
+                        &:focus {
+                            width: 240px;
+                            box-shadow: none;
+                            border-bottom: 1px solid rgb(2, 93, 167);
+                            // border: 3px solid rgba(8, 109, 241, 0.548);
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .nyari {
+        margin-top: 700px;
+
+        .container {
+            .row {
+                .kiri {
+                    img {
+                        margin-left: 50px;
+                        width: 300px;
+                        margin-bottom: 50px;
+                    }
+                }
+
+                .kanan {
+                    h3 {
+                        color: rgb(2, 93, 167);
+                        font-size: 22.5px;
+                    }
+
+                    p {
+                        color: rgb(65, 64, 64);
+                    }
+
+                    form {
+                        .cari {
+                            width: 180px;
+                            box-sizing: border-box;
+                            border: none;
+                            border-radius: 0px;
+                            border-bottom: 1px solid rgba(0, 0, 0, 0.452);
+                            // border-radius: 30px;
+                            // font-size: 16px;
+                            background-image: url('https://www.w3schools.com/howto/searchicon.png');
+                            background-position: 10px 8px;
+                            background-repeat: no-repeat;
+                            padding-left: 38px;
+                            -webkit-transition: width 0.35s ease-in-out;
+                            transition: width 0.35s ease-in-out;
+                            outline: none;
+
+                            &:focus {
+                                width: 240px;
+                                box-shadow: none;
+                                // border: 3px solid rgba(8, 109, 241, 0.548);
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+.kampus {
+    padding-top: 50px;
+    padding-bottom: 50px;
+
+    .container {
+        .isi {
+            .universitas-rekomendasi {
+                .owl-carousel {
+                    .item {
+                        .card {
+                            border: none;
+
+                            .location-listing {
+                                .location-image {
+                                    border-radius: 10px;
+
+                                    img {
+                                        height: 325px;
+                                        opacity: 1;
+                                        transition: .5s ease;
+                                        backface-visibility: hidden;
+                                    }
+                                }
+                            }
+
+                            .card-body {
+                                padding: 0;
+
+                                .kurung-logo {
+                                    .logo {
+                                        border-radius: 30px;
+                                        // background: white;
+                                        padding: 5px;
+
+                                        img {
+                                            position: absolute;
+                                            z-index: 99;
+                                            margin-top: -70px;
+                                            width: 25%;
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+.location-listing {
+    position: relative;
+}
+
+.location-image {
+    overflow: hidden;
+}
+
+.location-image img {
+    filter: blur(0px);
+    transition: filter 0.3s ease-in;
+    transform: scale(1.1);
+}
+
+.location-title {
+    border-radius: 10px;
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: none;
+    z-index: 1;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    transition: opacity .5s;
+    background: #274d6b77;
+    // color: white;
+    text-align: center;
+    padding: 0 15px;
+    text-decoration: none;
+
+    /* position the text in t’ middle*/
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.location-listing:hover .location-title {
+    opacity: 1;
+}
+
+.location-listing:hover .location-image img {
+    filter: blur(2px);
+}
+
+/* for touch screen devices */
+@media (hover: none) {
+    .location-title {
+        opacity: 1;
+    }
+
+    .location-image img {
+        filter: blur(2px);
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .kampus {
+        .container {
+            .isi {
+                .universitas-rekomendasi {
+                    .owl-carousel {
+                        .item {
+                            .card {
+                                border: none;
+
+                                .location-listing {
+                                    .location-image {
+                                        border-radius: 10px;
+
+                                        img {
+                                            height: 625px;
+                                            opacity: 1;
+                                            transition: .5s ease;
+                                            backface-visibility: hidden;
+                                        }
+                                    }
+                                }
+
+                                .card-body {
+                                    padding: 0;
+
+                                    .kurung-logo {
+                                        .logo {
+                                            border-radius: 30px;
+                                            position: absolute;
+                                            z-index: 99;
+                                            margin-top: -115px;
+                                            padding: 5px;
+
+                                            img {
+                                                width: 25%;
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+.kurung {
+    position: relative;
+}
+
+.gambar {
+    // overflow: hidden;
+}
+
+.gambar img {
+    filter: blur(0px);
+    transition: filter 0.3s ease-in;
+    transform: scale(1.1);
+}
+
+.text {
+    border-radius: 10px;
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: none;
+    z-index: 1;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    transition: opacity .5s;
+    // background: #274d6b77;
+    // color: white;
+    text-align: center;
+    padding: 0 15px;
+    text-decoration: none;
+
+    /* position the text in t’ middle*/
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.kurung:hover .text {
+    opacity: 1;
+}
+
+.kurung:hover .gambar img {
+    filter: blur(2px);
+}
+
+/* for touch screen devices */
+@media (hover: none) {
+    .text {
+        opacity: 1;
+    }
+
+    .gambar img {
+        filter: blur(2px);
+    }
+}
+
+.lokasi {
+    padding-top: 50px;
+    padding-bottom: 50px;
+
+    .container {
+        .title {
+            h2 {
+                text-align: center;
+            }
+        }
+
+        .lokasi-bawah {
+            .row {
+                padding-left: 25px;
+
+                .list {
+                    .kurung {
+                        .gambar {
+                            img {
+                                height: 150px;
+                                width: 230px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+.blog {
+    margin-top: 100px;
+    background: url('https://images.unsplash.com/photo-1523050854058-8df90110c9f1?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80');
+    background-size: cover;
+    background-attachment: fixed;
+    margin-bottom: 30px;
+
+    .latar {
+        background-color: #053c46d5;
+
+        .container {
+            padding-top: 50px;
+            padding-bottom: 90px;
+
+            .title {
+                margin-bottom: 25px;
+
+                h1 {
+                    color: white;
+                }
+            }
+
+            .blog-isi {
+                .nav {
+                    ul {
+                        list-style-type: none;
+                        // padding: 0;
+
+                        li {
+                            display: inline-block;
+                            margin-right: 15px;
+
+                            a {
+                                text-decoration: none;
+                                color: white;
+
+                                &:hover {
+                                    color: rgb(0, 140, 255);
+                                }
+                            }
+                        }
+                    }
+                }
+
+                .bawah-blog {
+                    margin-top: 75px;
+
+                    .carousel {
+                        .carousel-inner {
+                            .carousel-item {
+                                padding-left: 150px;
+
+                                a {
+                                    img {
+                                        width: 250px;
+                                        margin-right: 25px;
+                                        filter: opacity(0.8);
+
+                                        &:hover {
+                                            filter: opacity(1);
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+.partner {
+    padding-top: 25px;
+    padding-bottom: 30px;
+    .container {
+        .title {
+            h1 {
+                display: flex;
+                align-items: center;
+                letter-spacing: 1px;
+                margin-bottom: 40px;
+                color: #20435b;
+
+                &:before {
+                    content: "";
+                    width: 100px;
+                    height: 1px;
+                    display: block;
+                    margin-right: 20px;
+                    border-bottom: 2px solid #20435b;
+                }
+            }
+        }
+
+        .row {
+            .partner-logo {
+                img {
+                    width: 150px;
+                    filter: grayscale(100%);
+
+                    &:hover {
+                        filter: none;
+                    }
+                }
+            }
+        }
+    }
+}
+
+footer {
+    margin-top: 50px;
+    background: #07273b;
+    // padding-bottom: 75px;
+
+    .atas {
+        background: url('https://www.info.tuteeonline.com/wp-content/uploads/2017/06/Getting-your-Child-into-a-Top-US-University-A-Virtual-Workshop-scaled.jpg');
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+        background-size: cover;
+
+        .lapis {
+            padding: 75px;
+            background: #02263dce;
+
+            .container {
+                color: white;
+            }
+        }
+    }
+
+    .bawah {
+
+        &-kotak {
+            .container {
+                position: absolute;
+                left: 0;
+                right: 0;
+                // top: 50;
+                z-index: 99;
+                margin-top: -50px;
+
+                .row {
+                    padding: 15px;
+                    background-color: white;
+
+                    .isi {
+                        padding: 15px;
+
+                        &-dalam {
+                            border: 1px solid rgb(188, 220, 250);
+                            // text-align: center;
+                            background-color: rgb(234, 238, 241);
+                            padding: 25px;
+                            text-align: center;
+
+                            &:hover {
+                                background-color: rgb(21, 132, 223);
+                                color: white;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+        &-isi {
+            .container {
+                padding-top: 250px;
+
+                .gambar {
+                    margin-bottom: 20px;
+
+                    img {
+                        width: 250px;
+                    }
+                }
+
+                .kata {
+                    margin-bottom: 40px;
+
+                    p {
+                        color: white;
+                    }
+                }
+
+                .sosmed {
+                    ul {
+                        list-style-type: none;
+                        padding: 0;
+
+                        li {
+                            display: inline-block;
+                            margin-right: 15px;
+                            border-radius: 30px;
+
+                            a {
+                                background-color: white;
+                                border-radius: 30px;
+
+                                &:hover {
+                                    background-color: #20435b;
+
+                                    i {
+                                        color: white;
+                                    }
+                                }
+                            }
+
+                            .twt {
+                                padding: 12.5px 15px;
+                            }
+
+                            .fb {
+                                padding: 12.5px 18px;
+                            }
+
+                            .ig {
+                                padding: 12.5px 16px;
+                            }
+
+                            .ln {
+                                padding: 12.5px 16px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+        .copyright {
+            margin-top: 70px;
+
+            .container {
+                border-top: 1px solid white;
+                padding: 20px;
+                padding-bottom: 10px;
+
+                p {
+                    text-align: center;
+                    color: white;
+                    font-size: 13px;
+                }
+            }
+        }
+    }
+}

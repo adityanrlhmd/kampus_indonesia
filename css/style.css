@@ -1,0 +1,714 @@
+@charset "UTF-8";
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+header nav .container .navbar-brand img {
+  width: 110px;
+}
+
+header nav .container .navbar-toggler {
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  padding-top: 15px;
+}
+
+header nav .container .collapse ul li a {
+  color: black;
+  font-weight: 600;
+}
+
+header nav .container .collapse ul li a:hover {
+  color: #0677d4;
+}
+
+header nav .container .collapse form .search {
+  width: 180px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border: 3px solid rgba(204, 204, 204, 0.548);
+  border-radius: 30px;
+  background-image: url("https://www.w3schools.com/howto/searchicon.png");
+  background-position: 10px 8px;
+  background-repeat: no-repeat;
+  padding-left: 35px;
+  -webkit-transition: width 0.45s ease-in-out;
+  transition: width 0.45s ease-in-out;
+}
+
+header nav .container .collapse form .search:focus {
+  width: 240px;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  border: 3px solid #0677d4;
+}
+
+@media screen and (max-width: 576px) {
+  header nav .container .navbar-brand img {
+    width: 110px;
+  }
+  header nav .container .navbar-toggler {
+    -webkit-box-shadow: none;
+            box-shadow: none;
+    padding-top: 15px;
+  }
+  header nav .container .collapse ul {
+    padding: 0 25px;
+  }
+  header nav .container .collapse ul li a {
+    color: black;
+  }
+  header nav .container .collapse form .search {
+    width: 180px;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    border: 3px solid rgba(204, 204, 204, 0.548);
+    border-radius: 30px;
+    background-image: url("https://www.w3schools.com/howto/searchicon.png");
+    background-position: 10px 8px;
+    background-repeat: no-repeat;
+    padding-left: 35px;
+    -webkit-transition: width 0.35s ease-in-out;
+    transition: width 0.35s ease-in-out;
+  }
+  header nav .container .collapse form .search:focus {
+    width: 240px;
+    -webkit-box-shadow: none;
+            box-shadow: none;
+    border: 3px solid rgba(8, 109, 241, 0.548);
+  }
+}
+
+.slide .carousel .carousel-inner .carousel-item .carousel-caption {
+  top: 50%;
+}
+
+.slide .carousel .carousel-inner .slide-1 {
+  height: 95vh;
+  background-image: url("../img/wes-hicks-4-EeTnaC1S4-unsplash.jpg");
+  background-size: cover;
+  background-position-y: -70px;
+  background-repeat: no-repeat;
+}
+
+.slide .carousel .carousel-inner .slide-2 {
+  height: 95vh;
+  background-image: url("../img/akson-1K8pIbIrhkQ-unsplash.jpg");
+  background-size: cover;
+  background-position-y: -50px;
+  background-repeat: no-repeat;
+}
+
+.slide .carousel .carousel-inner .slide-3 {
+  height: 95vh;
+  background-image: url("../img/roihan-haidar-eioOpjkjxxs-unsplash.jpg");
+  background-size: cover;
+  background-position-y: -650px;
+  background-repeat: no-repeat;
+}
+
+@media screen and (max-width: 576px) {
+  .slide .carousel .carousel-inner .carousel-item .carousel-caption {
+    top: 50%;
+  }
+  .slide .carousel .carousel-inner .slide-1 {
+    height: 100vh;
+    background-image: url("../img/wes-hicks-4-EeTnaC1S4-unsplash.jpg");
+    background-size: cover;
+    background-position-y: -0px;
+    background-repeat: no-repeat;
+  }
+  .slide .carousel .carousel-inner .slide-2 {
+    height: 100vh;
+    background-image: url("../img/akson-1K8pIbIrhkQ-unsplash.jpg");
+    background-size: cover;
+    background-position-y: 0px;
+    background-position-x: -150px;
+    background-repeat: no-repeat;
+  }
+  .slide .carousel .carousel-inner .slide-3 {
+    height: 100vh;
+    background-image: url("../img/roihan-haidar-eioOpjkjxxs-unsplash.jpg");
+    background-size: cover;
+    background-position-y: -100px;
+    background-repeat: no-repeat;
+  }
+}
+
+.pilihan .container {
+  position: absolute;
+  left: 0;
+  right: 0;
+  z-index: 99;
+  margin-top: -110px;
+}
+
+.pilihan .container .row {
+  padding: 10px;
+}
+
+.pilihan .container .row .pilihan-isi {
+  padding: 15px;
+}
+
+.pilihan .container .row .pilihan-isi .pilihan-isi-dalam {
+  border: 1px solid #bcdcfa;
+  background-color: #eaeef1;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 35px;
+  height: 220px;
+}
+
+.pilihan .container .row .pilihan-isi .pilihan-isi-dalam i {
+  color: #025da7;
+  margin-right: 15px;
+}
+
+.pilihan .container .row .pilihan-isi .pilihan-isi-dalam .kata h5 {
+  letter-spacing: 1px;
+  color: black;
+}
+
+.pilihan .container .row .pilihan-isi .pilihan-isi-dalam .kata p {
+  letter-spacing: 0.5px;
+  color: black;
+}
+
+.pilihan .container .row .pilihan-isi .pilihan-isi-dalam:hover {
+  background-color: #1584df;
+}
+
+.pilihan .container .row .pilihan-isi .pilihan-isi-dalam:hover i {
+  color: white;
+}
+
+.pilihan .container .row .pilihan-isi .pilihan-isi-dalam:hover .kata p {
+  color: white;
+}
+
+.nyari {
+  margin-top: 200px;
+}
+
+.nyari .container .row .kiri img {
+  width: 500px;
+}
+
+.nyari .container .row .kanan h3 {
+  color: #025da7;
+  font-size: 25px;
+}
+
+.nyari .container .row .kanan p {
+  color: #414040;
+}
+
+.nyari .container .row .kanan form .cari {
+  width: 180px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border: none;
+  border-radius: 0px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.452);
+  background-image: url("https://www.w3schools.com/howto/searchicon.png");
+  background-position: 10px 8px;
+  background-repeat: no-repeat;
+  padding-left: 38px;
+  -webkit-transition: width 0.35s ease-in-out;
+  transition: width 0.35s ease-in-out;
+  outline: none;
+}
+
+.nyari .container .row .kanan form .cari:focus {
+  width: 240px;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  border-bottom: 1px solid #025da7;
+}
+
+@media screen and (max-width: 576px) {
+  .nyari {
+    margin-top: 700px;
+  }
+  .nyari .container .row .kiri img {
+    margin-left: 50px;
+    width: 300px;
+    margin-bottom: 50px;
+  }
+  .nyari .container .row .kanan h3 {
+    color: #025da7;
+    font-size: 22.5px;
+  }
+  .nyari .container .row .kanan p {
+    color: #414040;
+  }
+  .nyari .container .row .kanan form .cari {
+    width: 180px;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    border: none;
+    border-radius: 0px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.452);
+    background-image: url("https://www.w3schools.com/howto/searchicon.png");
+    background-position: 10px 8px;
+    background-repeat: no-repeat;
+    padding-left: 38px;
+    -webkit-transition: width 0.35s ease-in-out;
+    transition: width 0.35s ease-in-out;
+    outline: none;
+  }
+  .nyari .container .row .kanan form .cari:focus {
+    width: 240px;
+    -webkit-box-shadow: none;
+            box-shadow: none;
+  }
+}
+
+.kampus {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.kampus .container .isi .universitas-rekomendasi .owl-carousel .item .card {
+  border: none;
+}
+
+.kampus .container .isi .universitas-rekomendasi .owl-carousel .item .card .location-listing .location-image {
+  border-radius: 10px;
+}
+
+.kampus .container .isi .universitas-rekomendasi .owl-carousel .item .card .location-listing .location-image img {
+  height: 325px;
+  opacity: 1;
+  -webkit-transition: .5s ease;
+  transition: .5s ease;
+  -webkit-backface-visibility: hidden;
+          backface-visibility: hidden;
+}
+
+.kampus .container .isi .universitas-rekomendasi .owl-carousel .item .card .card-body {
+  padding: 0;
+}
+
+.kampus .container .isi .universitas-rekomendasi .owl-carousel .item .card .card-body .kurung-logo .logo {
+  border-radius: 30px;
+  padding: 5px;
+}
+
+.kampus .container .isi .universitas-rekomendasi .owl-carousel .item .card .card-body .kurung-logo .logo img {
+  position: absolute;
+  z-index: 99;
+  margin-top: -70px;
+  width: 25%;
+}
+
+.location-listing {
+  position: relative;
+}
+
+.location-image {
+  overflow: hidden;
+}
+
+.location-image img {
+  -webkit-filter: blur(0px);
+          filter: blur(0px);
+  -webkit-transition: -webkit-filter 0.3s ease-in;
+  transition: -webkit-filter 0.3s ease-in;
+  transition: filter 0.3s ease-in;
+  transition: filter 0.3s ease-in, -webkit-filter 0.3s ease-in;
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+
+.location-title {
+  border-radius: 10px;
+  font-size: 20px;
+  font-weight: bold;
+  text-decoration: none;
+  z-index: 1;
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  opacity: 0;
+  -webkit-transition: opacity .5s;
+  transition: opacity .5s;
+  background: #274d6b77;
+  text-align: center;
+  padding: 0 15px;
+  text-decoration: none;
+  /* position the text in t’ middle*/
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.location-listing:hover .location-title {
+  opacity: 1;
+}
+
+.location-listing:hover .location-image img {
+  -webkit-filter: blur(2px);
+          filter: blur(2px);
+}
+
+/* for touch screen devices */
+@media (hover: none) {
+  .location-title {
+    opacity: 1;
+  }
+  .location-image img {
+    -webkit-filter: blur(2px);
+            filter: blur(2px);
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .kampus .container .isi .universitas-rekomendasi .owl-carousel .item .card {
+    border: none;
+  }
+  .kampus .container .isi .universitas-rekomendasi .owl-carousel .item .card .location-listing .location-image {
+    border-radius: 10px;
+  }
+  .kampus .container .isi .universitas-rekomendasi .owl-carousel .item .card .location-listing .location-image img {
+    height: 625px;
+    opacity: 1;
+    -webkit-transition: .5s ease;
+    transition: .5s ease;
+    -webkit-backface-visibility: hidden;
+            backface-visibility: hidden;
+  }
+  .kampus .container .isi .universitas-rekomendasi .owl-carousel .item .card .card-body {
+    padding: 0;
+  }
+  .kampus .container .isi .universitas-rekomendasi .owl-carousel .item .card .card-body .kurung-logo .logo {
+    border-radius: 30px;
+    position: absolute;
+    z-index: 99;
+    margin-top: -115px;
+    padding: 5px;
+  }
+  .kampus .container .isi .universitas-rekomendasi .owl-carousel .item .card .card-body .kurung-logo .logo img {
+    width: 25%;
+  }
+}
+
+.kurung {
+  position: relative;
+}
+
+.gambar img {
+  -webkit-filter: blur(0px);
+          filter: blur(0px);
+  -webkit-transition: -webkit-filter 0.3s ease-in;
+  transition: -webkit-filter 0.3s ease-in;
+  transition: filter 0.3s ease-in;
+  transition: filter 0.3s ease-in, -webkit-filter 0.3s ease-in;
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+
+.text {
+  border-radius: 10px;
+  font-size: 20px;
+  font-weight: bold;
+  text-decoration: none;
+  z-index: 1;
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  opacity: 0;
+  -webkit-transition: opacity .5s;
+  transition: opacity .5s;
+  text-align: center;
+  padding: 0 15px;
+  text-decoration: none;
+  /* position the text in t’ middle*/
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.kurung:hover .text {
+  opacity: 1;
+}
+
+.kurung:hover .gambar img {
+  -webkit-filter: blur(2px);
+          filter: blur(2px);
+}
+
+/* for touch screen devices */
+@media (hover: none) {
+  .text {
+    opacity: 1;
+  }
+  .gambar img {
+    -webkit-filter: blur(2px);
+            filter: blur(2px);
+  }
+}
+
+.lokasi {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.lokasi .container .title h2 {
+  text-align: center;
+}
+
+.lokasi .container .lokasi-bawah .row {
+  padding-left: 25px;
+}
+
+.lokasi .container .lokasi-bawah .row .list .kurung .gambar img {
+  height: 150px;
+  width: 230px;
+}
+
+.blog {
+  margin-top: 100px;
+  background: url("https://images.unsplash.com/photo-1523050854058-8df90110c9f1?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80");
+  background-size: cover;
+  background-attachment: fixed;
+  margin-bottom: 30px;
+}
+
+.blog .latar {
+  background-color: #053c46d5;
+}
+
+.blog .latar .container {
+  padding-top: 50px;
+  padding-bottom: 90px;
+}
+
+.blog .latar .container .title {
+  margin-bottom: 25px;
+}
+
+.blog .latar .container .title h1 {
+  color: white;
+}
+
+.blog .latar .container .blog-isi .nav ul {
+  list-style-type: none;
+}
+
+.blog .latar .container .blog-isi .nav ul li {
+  display: inline-block;
+  margin-right: 15px;
+}
+
+.blog .latar .container .blog-isi .nav ul li a {
+  text-decoration: none;
+  color: white;
+}
+
+.blog .latar .container .blog-isi .nav ul li a:hover {
+  color: #008cff;
+}
+
+.blog .latar .container .blog-isi .bawah-blog {
+  margin-top: 75px;
+}
+
+.blog .latar .container .blog-isi .bawah-blog .carousel .carousel-inner .carousel-item {
+  padding-left: 150px;
+}
+
+.blog .latar .container .blog-isi .bawah-blog .carousel .carousel-inner .carousel-item a img {
+  width: 250px;
+  margin-right: 25px;
+  -webkit-filter: opacity(0.8);
+          filter: opacity(0.8);
+}
+
+.blog .latar .container .blog-isi .bawah-blog .carousel .carousel-inner .carousel-item a img:hover {
+  -webkit-filter: opacity(1);
+          filter: opacity(1);
+}
+
+.partner {
+  padding-top: 25px;
+  padding-bottom: 30px;
+}
+
+.partner .container .title h1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  letter-spacing: 1px;
+  margin-bottom: 40px;
+  color: #20435b;
+}
+
+.partner .container .title h1:before {
+  content: "";
+  width: 100px;
+  height: 1px;
+  display: block;
+  margin-right: 20px;
+  border-bottom: 2px solid #20435b;
+}
+
+.partner .container .row .partner-logo img {
+  width: 150px;
+  -webkit-filter: grayscale(100%);
+          filter: grayscale(100%);
+}
+
+.partner .container .row .partner-logo img:hover {
+  -webkit-filter: none;
+          filter: none;
+}
+
+footer {
+  margin-top: 50px;
+  background: #07273b;
+}
+
+footer .atas {
+  background: url("https://www.info.tuteeonline.com/wp-content/uploads/2017/06/Getting-your-Child-into-a-Top-US-University-A-Virtual-Workshop-scaled.jpg");
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+footer .atas .lapis {
+  padding: 75px;
+  background: #02263dce;
+}
+
+footer .atas .lapis .container {
+  color: white;
+}
+
+footer .bawah-kotak .container {
+  position: absolute;
+  left: 0;
+  right: 0;
+  z-index: 99;
+  margin-top: -50px;
+}
+
+footer .bawah-kotak .container .row {
+  padding: 15px;
+  background-color: white;
+}
+
+footer .bawah-kotak .container .row .isi {
+  padding: 15px;
+}
+
+footer .bawah-kotak .container .row .isi-dalam {
+  border: 1px solid #bcdcfa;
+  background-color: #eaeef1;
+  padding: 25px;
+  text-align: center;
+}
+
+footer .bawah-kotak .container .row .isi-dalam:hover {
+  background-color: #1584df;
+  color: white;
+}
+
+footer .bawah-isi .container {
+  padding-top: 250px;
+}
+
+footer .bawah-isi .container .gambar {
+  margin-bottom: 20px;
+}
+
+footer .bawah-isi .container .gambar img {
+  width: 250px;
+}
+
+footer .bawah-isi .container .kata {
+  margin-bottom: 40px;
+}
+
+footer .bawah-isi .container .kata p {
+  color: white;
+}
+
+footer .bawah-isi .container .sosmed ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+footer .bawah-isi .container .sosmed ul li {
+  display: inline-block;
+  margin-right: 15px;
+  border-radius: 30px;
+}
+
+footer .bawah-isi .container .sosmed ul li a {
+  background-color: white;
+  border-radius: 30px;
+}
+
+footer .bawah-isi .container .sosmed ul li a:hover {
+  background-color: #20435b;
+}
+
+footer .bawah-isi .container .sosmed ul li a:hover i {
+  color: white;
+}
+
+footer .bawah-isi .container .sosmed ul li .twt {
+  padding: 12.5px 15px;
+}
+
+footer .bawah-isi .container .sosmed ul li .fb {
+  padding: 12.5px 18px;
+}
+
+footer .bawah-isi .container .sosmed ul li .ig {
+  padding: 12.5px 16px;
+}
+
+footer .bawah-isi .container .sosmed ul li .ln {
+  padding: 12.5px 16px;
+}
+
+footer .bawah .copyright {
+  margin-top: 70px;
+}
+
+footer .bawah .copyright .container {
+  border-top: 1px solid white;
+  padding: 20px;
+  padding-bottom: 10px;
+}
+
+footer .bawah .copyright .container p {
+  text-align: center;
+  color: white;
+  font-size: 13px;
+}
+/*# sourceMappingURL=style.css.map */
