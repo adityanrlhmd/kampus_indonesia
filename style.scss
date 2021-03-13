@@ -592,6 +592,49 @@ header {
                     }
                 }
             }
+
+            .atas {
+                margin-bottom: 40px;
+            }
+        }
+    }
+}
+
+@media screen and (max-width : 576px) {
+    .lokasi {
+        padding-top: 20px;
+        padding-bottom: 0px;
+
+        .container {
+            .title {
+                h2 {
+                    text-align: center;
+                }
+            }
+
+            .lokasi-bawah {
+                .row {
+                    // padding-right: 100px;
+
+                    .list {
+                        .kurung {
+                            .gambar {
+                                img {
+                                    height: 100px;
+                                    width: 180px;
+                                    margin-bottom: 20px;
+                                }
+                            }
+                            .text {
+                                font-size: 15px;
+                            }
+                        }
+                    }
+                }
+                .atas {
+                    margin-bottom: 0;
+                }
+            }
         }
     }
 }
@@ -668,9 +711,86 @@ header {
     }
 }
 
+@media screen and (max-width : 576px) {
+    .blog {
+        margin-top: 100px;
+        background: url('https://images.unsplash.com/photo-1523050854058-8df90110c9f1?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80');
+        background-size: cover;
+        background-attachment: fixed;
+        margin-bottom: 30px;
+
+        .latar {
+            background-color: #053c46d5;
+
+            .container {
+                padding-top: 50px;
+                padding-bottom: 90px;
+
+                .title {
+                    margin-bottom: 25px;
+
+                    h1 {
+                        color: white;
+                    }
+                }
+
+                .blog-isi {
+                    .nav {
+                        ul {
+                            list-style-type: none;
+                            // padding: 0;
+
+                            li {
+                                display: inline-block;
+                                margin-right: 15px;
+                                margin-bottom: 15px;
+
+                                a {
+                                    text-decoration: none;
+                                    color: white;
+
+                                    &:hover {
+                                        color: rgb(0, 140, 255);
+                                    }
+                                }
+                            }
+                        }
+                    }
+
+                    .bawah-blog {
+                        margin-top: 25px;
+
+                        .carousel {
+                            .carousel-inner {
+                                .carousel-item {
+                                    padding-left: 85px;
+
+                                    a {
+                                        img {
+                                            width: 250px;
+                                            // margin-right: 25px;
+                                            margin-bottom: 15px;
+                                            filter: opacity(0.8);
+
+                                            &:hover {
+                                                filter: opacity(1);
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
 .partner {
     padding-top: 25px;
     padding-bottom: 30px;
+
     .container {
         .title {
             h1 {
@@ -699,6 +819,49 @@ header {
 
                     &:hover {
                         filter: none;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width : 576px) {
+    .partner {
+        padding-top: 25px;
+        padding-bottom: 30px;
+
+        .container {
+            .title {
+                h1 {
+                    display: flex;
+                    align-items: center;
+                    letter-spacing: 1px;
+                    margin-bottom: 40px;
+                    color: #20435b;
+
+                    &:before {
+                        content: "";
+                        width: 50px;
+                        height: 1px;
+                        display: block;
+                        margin-right: 20px;
+                        border-bottom: 2px solid #20435b;
+                    }
+                }
+            }
+
+            .row {
+                padding-left: 75px;
+
+                .partner-logo {
+                    img {
+                        width: 125px;
+                        filter: grayscale(100%);
+
+                        &:hover {
+                            filter: none;
+                        }
                     }
                 }
             }
@@ -838,6 +1001,151 @@ footer {
                     text-align: center;
                     color: white;
                     font-size: 13px;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width : 576px) {
+    footer {
+        margin-top: 50px;
+        background: #07273b;
+        // padding-bottom: 75px;
+
+        .atas {
+            background: url('https://www.info.tuteeonline.com/wp-content/uploads/2017/06/Getting-your-Child-into-a-Top-US-University-A-Virtual-Workshop-scaled.jpg');
+            background-attachment: fixed;
+            background-repeat: no-repeat;
+            background-size: cover;
+
+            .lapis {
+                padding: 75px;
+                background: #02263dce;
+
+                .container {
+                    color: white;
+                }
+            }
+        }
+
+        .bawah {
+
+            &-kotak {
+                .container {
+                    position: absolute;
+                    left: 0;
+                    right: 0;
+                    // top: 50;
+                    z-index: 99;
+                    margin-top: -50px;
+
+                    .row {
+                        padding: 15px;
+                        background-color: white;
+
+                        .isi {
+                            padding: 15px;
+
+                            &-dalam {
+                                border: 1px solid rgb(188, 220, 250);
+                                // text-align: center;
+                                background-color: rgb(234, 238, 241);
+                                padding: 25px;
+                                text-align: center;
+
+                                &:hover {
+                                    background-color: rgb(21, 132, 223);
+                                    color: white;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+
+            &-isi {
+                .container {
+                    padding-top: 550px;
+
+                    .gambar {
+                        margin-left: 145px;
+                        margin-bottom: 20px;
+
+                        img {
+                            width: 150px;
+                        }
+                    }
+
+                    .kata {
+                        margin-bottom: 40px;
+                        text-align: center;
+
+                        p {
+                            color: white;
+                            font-size: 15px;
+                        }
+                    }
+
+                    .sosmed {
+                        margin-left: 85px;
+
+                        ul {
+                            list-style-type: none;
+                            padding: 0;
+
+                            li {
+                                display: inline-block;
+                                margin-right: 15px;
+                                border-radius: 30px;
+
+                                a {
+                                    background-color: white;
+                                    border-radius: 30px;
+
+                                    &:hover {
+                                        background-color: #20435b;
+
+                                        i {
+                                            color: white;
+                                        }
+                                    }
+                                }
+
+                                .twt {
+                                    padding: 12.5px 15px;
+                                }
+
+                                .fb {
+                                    padding: 12.5px 18px;
+                                }
+
+                                .ig {
+                                    padding: 12.5px 16px;
+                                }
+
+                                .ln {
+                                    padding: 12.5px 16px;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+
+            .copyright {
+                margin-top: 70px;
+
+                .container {
+                    border-top: 1px solid white;
+                    padding: 20px;
+                    padding-bottom: 10px;
+
+                    p {
+                        text-align: center;
+                        color: white;
+                        font-size: 13px;
+                    }
                 }
             }
         }

@@ -486,6 +486,31 @@ header nav .container .collapse form .search:focus {
   width: 230px;
 }
 
+.lokasi .container .lokasi-bawah .atas {
+  margin-bottom: 40px;
+}
+
+@media screen and (max-width: 576px) {
+  .lokasi {
+    padding-top: 20px;
+    padding-bottom: 0px;
+  }
+  .lokasi .container .title h2 {
+    text-align: center;
+  }
+  .lokasi .container .lokasi-bawah .row .list .kurung .gambar img {
+    height: 100px;
+    width: 180px;
+    margin-bottom: 20px;
+  }
+  .lokasi .container .lokasi-bawah .row .list .kurung .text {
+    font-size: 15px;
+  }
+  .lokasi .container .lokasi-bawah .atas {
+    margin-bottom: 0;
+  }
+}
+
 .blog {
   margin-top: 100px;
   background: url("https://images.unsplash.com/photo-1523050854058-8df90110c9f1?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80");
@@ -549,6 +574,60 @@ header nav .container .collapse form .search:focus {
           filter: opacity(1);
 }
 
+@media screen and (max-width: 576px) {
+  .blog {
+    margin-top: 100px;
+    background: url("https://images.unsplash.com/photo-1523050854058-8df90110c9f1?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80");
+    background-size: cover;
+    background-attachment: fixed;
+    margin-bottom: 30px;
+  }
+  .blog .latar {
+    background-color: #053c46d5;
+  }
+  .blog .latar .container {
+    padding-top: 50px;
+    padding-bottom: 90px;
+  }
+  .blog .latar .container .title {
+    margin-bottom: 25px;
+  }
+  .blog .latar .container .title h1 {
+    color: white;
+  }
+  .blog .latar .container .blog-isi .nav ul {
+    list-style-type: none;
+  }
+  .blog .latar .container .blog-isi .nav ul li {
+    display: inline-block;
+    margin-right: 15px;
+    margin-bottom: 15px;
+  }
+  .blog .latar .container .blog-isi .nav ul li a {
+    text-decoration: none;
+    color: white;
+  }
+  .blog .latar .container .blog-isi .nav ul li a:hover {
+    color: #008cff;
+  }
+  .blog .latar .container .blog-isi .bawah-blog {
+    margin-top: 25px;
+  }
+  .blog .latar .container .blog-isi .bawah-blog .carousel .carousel-inner .carousel-item {
+    padding-left: 85px;
+  }
+  .blog .latar .container .blog-isi .bawah-blog .carousel .carousel-inner .carousel-item a img {
+    width: 250px;
+    margin-bottom: 15px;
+    -webkit-filter: opacity(0.8);
+            filter: opacity(0.8);
+  }
+  .blog .latar .container .blog-isi .bawah-blog .carousel .carousel-inner .carousel-item a img:hover {
+    -webkit-filter: opacity(1);
+            filter: opacity(1);
+  }
+}
+
 .partner {
   padding-top: 25px;
   padding-bottom: 30px;
@@ -584,6 +663,44 @@ header nav .container .collapse form .search:focus {
 .partner .container .row .partner-logo img:hover {
   -webkit-filter: none;
           filter: none;
+}
+
+@media screen and (max-width: 576px) {
+  .partner {
+    padding-top: 25px;
+    padding-bottom: 30px;
+  }
+  .partner .container .title h1 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    letter-spacing: 1px;
+    margin-bottom: 40px;
+    color: #20435b;
+  }
+  .partner .container .title h1:before {
+    content: "";
+    width: 50px;
+    height: 1px;
+    display: block;
+    margin-right: 20px;
+    border-bottom: 2px solid #20435b;
+  }
+  .partner .container .row {
+    padding-left: 75px;
+  }
+  .partner .container .row .partner-logo img {
+    width: 125px;
+    -webkit-filter: grayscale(100%);
+            filter: grayscale(100%);
+  }
+  .partner .container .row .partner-logo img:hover {
+    -webkit-filter: none;
+            filter: none;
+  }
 }
 
 footer {
@@ -710,5 +827,114 @@ footer .bawah .copyright .container p {
   text-align: center;
   color: white;
   font-size: 13px;
+}
+
+@media screen and (max-width: 576px) {
+  footer {
+    margin-top: 50px;
+    background: #07273b;
+  }
+  footer .atas {
+    background: url("https://www.info.tuteeonline.com/wp-content/uploads/2017/06/Getting-your-Child-into-a-Top-US-University-A-Virtual-Workshop-scaled.jpg");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  footer .atas .lapis {
+    padding: 75px;
+    background: #02263dce;
+  }
+  footer .atas .lapis .container {
+    color: white;
+  }
+  footer .bawah-kotak .container {
+    position: absolute;
+    left: 0;
+    right: 0;
+    z-index: 99;
+    margin-top: -50px;
+  }
+  footer .bawah-kotak .container .row {
+    padding: 15px;
+    background-color: white;
+  }
+  footer .bawah-kotak .container .row .isi {
+    padding: 15px;
+  }
+  footer .bawah-kotak .container .row .isi-dalam {
+    border: 1px solid #bcdcfa;
+    background-color: #eaeef1;
+    padding: 25px;
+    text-align: center;
+  }
+  footer .bawah-kotak .container .row .isi-dalam:hover {
+    background-color: #1584df;
+    color: white;
+  }
+  footer .bawah-isi .container {
+    padding-top: 550px;
+  }
+  footer .bawah-isi .container .gambar {
+    margin-left: 145px;
+    margin-bottom: 20px;
+  }
+  footer .bawah-isi .container .gambar img {
+    width: 150px;
+  }
+  footer .bawah-isi .container .kata {
+    margin-bottom: 40px;
+    text-align: center;
+  }
+  footer .bawah-isi .container .kata p {
+    color: white;
+    font-size: 15px;
+  }
+  footer .bawah-isi .container .sosmed {
+    margin-left: 85px;
+  }
+  footer .bawah-isi .container .sosmed ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  footer .bawah-isi .container .sosmed ul li {
+    display: inline-block;
+    margin-right: 15px;
+    border-radius: 30px;
+  }
+  footer .bawah-isi .container .sosmed ul li a {
+    background-color: white;
+    border-radius: 30px;
+  }
+  footer .bawah-isi .container .sosmed ul li a:hover {
+    background-color: #20435b;
+  }
+  footer .bawah-isi .container .sosmed ul li a:hover i {
+    color: white;
+  }
+  footer .bawah-isi .container .sosmed ul li .twt {
+    padding: 12.5px 15px;
+  }
+  footer .bawah-isi .container .sosmed ul li .fb {
+    padding: 12.5px 18px;
+  }
+  footer .bawah-isi .container .sosmed ul li .ig {
+    padding: 12.5px 16px;
+  }
+  footer .bawah-isi .container .sosmed ul li .ln {
+    padding: 12.5px 16px;
+  }
+  footer .bawah .copyright {
+    margin-top: 70px;
+  }
+  footer .bawah .copyright .container {
+    border-top: 1px solid white;
+    padding: 20px;
+    padding-bottom: 10px;
+  }
+  footer .bawah .copyright .container p {
+    text-align: center;
+    color: white;
+    font-size: 13px;
+  }
 }
 /*# sourceMappingURL=style.css.map */
